@@ -34,7 +34,7 @@ docker build -t {{your-user}}/challenge-go .
 ### Run
 
 ```
-docker run -rm {{your-user}}/challenge-go
+docker run --rm {{your-user}}/challenge-go
 ```
 
 ### Docker Hub
@@ -47,13 +47,13 @@ docker run -rm {{your-user}}/challenge-go
 * Push
 
     > ```
-    > docker push fabricioalingeri/codeeducation
+    > docker push {{your-user}}/challenge-go
     > ```
 
 * Pull
 
     > ```
-    > docker pull fabricioalingeri/codeeducation
+    > docker pull {{your-user}}/challenge-go
     > ```
 
 -----
