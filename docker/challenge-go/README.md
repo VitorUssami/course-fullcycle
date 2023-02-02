@@ -5,8 +5,6 @@
     <img src="https://img.shields.io/badge/Go-00ADD8?style=plastic&logo=Go&logoColor=white" /> 
     <img src="https://img.shields.io/badge/Docker-2496ED?style=plastic&logo=Docker&logoColor=white" /> 
 </p>
-<br/><br/>
-
 
 ## Summary
 
