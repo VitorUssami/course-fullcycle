@@ -1,11 +1,11 @@
 # [Course-FullCycle][Docker] Challenge - Nginx + Node.js
 
-
-<img src="https://img.shields.io/badge/FullCycle-000000?style=plastic"  /> 
-<img src="https://img.shields.io/badge/Node.js-339933?style=plastic&logo=Node.js&logoColor=white" /> 
-<img src="https://img.shields.io/badge/NGINX-009639?style=plastic&logo=NGINX&logoColor=white" /> 
-<img src="https://img.shields.io/badge/Docker-2496ED?style=plastic&logo=Docker&logoColor=white" /> 
-
+<p style="float:left">
+    <img src="https://img.shields.io/badge/FullCycle-000000?style=plastic"  /> 
+    <img src="https://img.shields.io/badge/Node.js-339933?style=plastic&logo=Node.js&logoColor=white" /> 
+    <img src="https://img.shields.io/badge/NGINX-009639?style=plastic&logo=NGINX&logoColor=white" /> 
+    <img src="https://img.shields.io/badge/Docker-2496ED?style=plastic&logo=Docker&logoColor=white" /> 
+</p>
 
 ## Summary
 
