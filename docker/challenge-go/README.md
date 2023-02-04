@@ -39,6 +39,12 @@ docker run --rm {{your-user}}/challenge-go
 
 ### Docker Hub
 
+Check it on [Docker Hub Image](https://hub.docker.com/r/vitorussami/challenge-go) or pull it using:
+
+> docker pull vitorussami/challenge-go
+
+
+
 * Login
     > ```
     > docker login
