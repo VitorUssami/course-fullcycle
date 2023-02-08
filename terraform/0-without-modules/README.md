@@ -16,19 +16,19 @@
 > docker pull hashicorp/terraform
 
 > docker run -v $(pwd):/workspace -w /workspace \
->  -e AWS_ACCESS_KEY_ID='{{access-key-id}}' \
->  -e AWS_SECRET_ACCESS_KEY='{{secret-access-key}}' \
->  -it hashicorp/terraform:latest init
+>  -e AWS_ACCESS_KEY_ID='_{{access-key-id}}_' \
+>  -e AWS_SECRET_ACCESS_KEY='_{{secret-access-key}}_' \
+>  -it hashicorp/terraform:latest **init**
 
 > docker run -v $(pwd):/workspace -w /workspace \
->  -e AWS_ACCESS_KEY_ID='{{access-key-id}}' \
->  -e AWS_SECRET_ACCESS_KEY='{{secret-access-key}}' \
->  -it hashicorp/terraform:latest plan
+>  -e AWS_ACCESS_KEY_ID='_{{access-key-id}}_' \
+>  -e AWS_SECRET_ACCESS_KEY='_{{secret-access-key}}_' \
+>  -it hashicorp/terraform:latest **plan**
 
 > docker run -v $(pwd):/workspace -w /workspace \
->  -e AWS_ACCESS_KEY_ID='{{access-key-id}}' \
->  -e AWS_SECRET_ACCESS_KEY='{{secret-access-key}}' \
->  -it hashicorp/terraform:latest apply	
+>  -e AWS_ACCESS_KEY_ID='_{{access-key-id}}_' \
+>  -e AWS_SECRET_ACCESS_KEY='_{{secret-access-key}}_' \
+>  -it hashicorp/terraform:latest **apply**
 
 -----
 
