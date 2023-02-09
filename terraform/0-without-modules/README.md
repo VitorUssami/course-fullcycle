@@ -30,6 +30,9 @@
 >  -e AWS_SECRET_ACCESS_KEY='_{{secret-access-key}}_' \
 >  -it hashicorp/terraform:latest **apply**
 
+You might use auto aprove on apply
+> --auto-approve
+
 -----
 
 #### AWS CLI on wsl2
