@@ -1,0 +1,1 @@
+prefix = "course-full-cycle"
