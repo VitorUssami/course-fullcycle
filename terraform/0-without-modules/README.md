@@ -48,3 +48,21 @@ You might use auto aprove on apply
 
 > cat ~/.aws/credentials
 
+
+#### aws-iam-authenticator
+
+Must install aws-iam-authenticator
+
+##### Check
+> aws-iam-authenticator help
+
+#### kubectl
+
+Must install kubectl as well.
+
+After apply, copy and kubeconfig to ~/.kube/config 
+> cp kubeconfig  ~/.kube/config 
+
+##### Check
+> kubectl get nodes
+
