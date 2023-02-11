@@ -33,6 +33,12 @@
 You might use auto aprove on apply
 > --auto-approve
 
+
+> docker run -v $(pwd):/workspace -w /workspace \
+>  -e AWS_ACCESS_KEY_ID='_{{access-key-id}}_' \
+>  -e AWS_SECRET_ACCESS_KEY='_{{secret-access-key}}_' \
+>  -it hashicorp/terraform:latest **destroy**
+
 -----
 
 #### AWS CLI on wsl2
@@ -65,4 +71,15 @@ After apply, copy and kubeconfig to ~/.kube/config
 
 ##### Check
 > kubectl get nodes
+
+##### Deploy Nginx to validade the cluster
+
+> kubectl create deploy nginx --image=nginx
+> kubectl get po
+> kubectl port-forward pod/{{pod-name}} 8181:80
+
+Access using a browser localhost:8181
+
+Nginx home page must be displayed
+
 
