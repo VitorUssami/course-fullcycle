@@ -16,4 +16,4 @@ Monorepo to centralize course's content and challenges.
 - [x] **Docker**
   - [x] [challenge Go](docker/challenge-go/README.md) 
   - [x] [challenge nginx and node](docker/challenge-nginx-node/README.md) 
-- [ ] **Terraform**  
+- [x] **Terraform**  
